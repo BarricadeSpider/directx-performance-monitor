@@ -1,0 +1,9 @@
+{
+  "logIntervalMs": 50,          // How frequently (in ms) metrics are sampled and logged.
+  "alertThresholds": {
+    "gpuUtilizationPct": 92.0, // Threshold above which a warning is issued.
+    "frameTimeMs": 34.0         // Threshold above which a major alert is triggered.
+  },
+  "outputPath": "performance_log_{timestamp}.csv",
+  "targetProcessId": null          // Set to PID if not using GUI selection (e.g., 1234)
+}
